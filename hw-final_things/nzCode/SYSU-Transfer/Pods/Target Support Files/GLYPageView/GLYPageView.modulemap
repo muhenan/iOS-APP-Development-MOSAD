@@ -1,0 +1,6 @@
+framework module GLYPageView {
+  umbrella header "GLYPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

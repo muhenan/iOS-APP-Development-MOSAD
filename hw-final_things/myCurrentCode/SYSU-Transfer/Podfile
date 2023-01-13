@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SYSU-Transfer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SYSU-Transfer
+  pod 'AFNetworking', '~> 4.0'
+  pod 'GLYPageView', '~> 0.0.1'
+end

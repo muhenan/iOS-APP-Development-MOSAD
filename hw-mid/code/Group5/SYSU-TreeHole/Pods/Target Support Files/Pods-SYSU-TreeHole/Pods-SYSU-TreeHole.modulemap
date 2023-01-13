@@ -1,0 +1,6 @@
+framework module Pods_SYSU_TreeHole {
+  umbrella header "Pods-SYSU-TreeHole-umbrella.h"
+
+  export *
+  module * { export * }
+}

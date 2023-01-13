@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044ED9E6257FACDD00B9EE36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044ED9E5257FACDD00B9EE36 /* AppDelegate.m */; };
+		044ED9EC257FACDD00B9EE36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044ED9EB257FACDD00B9EE36 /* ViewController.m */; };
+		044ED9F1257FACE300B9EE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044ED9F0257FACE300B9EE36 /* Assets.xcassets */; };
+		044ED9F7257FACE300B9EE36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044ED9F6257FACE300B9EE36 /* main.m */; };
+		044EDA02257FBC9C00B9EE36 /* temp.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EDA01257FBC9C00B9EE36 /* temp.m */; };
+		044EDA0B2581E3E200B9EE36 /* DisplayImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 044EDA0A2581E3E200B9EE36 /* DisplayImages.m */; };
+		044EDA122582014300B9EE36 /* loading-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 044EDA112582014200B9EE36 /* loading-2.png */; };
+		6D25698B55A6C8F1D378FF3B /* Pods_ios_hw3_muhenan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7CB53E2A79469A6FB751BB /* Pods_ios_hw3_muhenan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044ED9E1257FACDD00B9EE36 /* ios-hw3-muhenan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-hw3-muhenan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044ED9E4257FACDD00B9EE36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044ED9E5257FACDD00B9EE36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044ED9EA257FACDD00B9EE36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044ED9EB257FACDD00B9EE36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044ED9F0257FACE300B9EE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044ED9F5257FACE300B9EE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044ED9F6257FACE300B9EE36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044EDA01257FBC9C00B9EE36 /* temp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temp.m; sourceTree = "<group>"; };
+		044EDA092581E3E200B9EE36 /* DisplayImages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayImages.h; sourceTree = "<group>"; };
+		044EDA0A2581E3E200B9EE36 /* DisplayImages.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayImages.m; sourceTree = "<group>"; };
+		044EDA112582014200B9EE36 /* loading-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading-2.png"; sourceTree = "<group>"; };
+		1C7CB53E2A79469A6FB751BB /* Pods_ios_hw3_muhenan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_hw3_muhenan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1D53F8B4F01BBE3962651C /* Pods-ios-hw3-muhenan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-hw3-muhenan.debug.xcconfig"; path = "Target Support Files/Pods-ios-hw3-muhenan/Pods-ios-hw3-muhenan.debug.xcconfig"; sourceTree = "<group>"; };
+		FCCE618E356F26DDBB39F813 /* Pods-ios-hw3-muhenan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-hw3-muhenan.release.xcconfig"; path = "Target Support Files/Pods-ios-hw3-muhenan/Pods-ios-hw3-muhenan.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044ED9DE257FACDD00B9EE36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D25698B55A6C8F1D378FF3B /* Pods_ios_hw3_muhenan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044ED9D8257FACDD00B9EE36 = {
+			isa = PBXGroup;
+			children = (
+				044ED9E3257FACDD00B9EE36 /* ios-hw3-muhenan */,
+				044ED9E2257FACDD00B9EE36 /* Products */,
+				E2867CB6C0AC13A68D0BB831 /* Pods */,
+				60B11B60C41F2F5197B60E8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		044ED9E2257FACDD00B9EE36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044ED9E1257FACDD00B9EE36 /* ios-hw3-muhenan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044ED9E3257FACDD00B9EE36 /* ios-hw3-muhenan */ = {
+			isa = PBXGroup;
+			children = (
+				044ED9E4257FACDD00B9EE36 /* AppDelegate.h */,
+				044ED9E5257FACDD00B9EE36 /* AppDelegate.m */,
+				044ED9EA257FACDD00B9EE36 /* ViewController.h */,
+				044ED9EB257FACDD00B9EE36 /* ViewController.m */,
+				044ED9F0257FACE300B9EE36 /* Assets.xcassets */,
+				044ED9F5257FACE300B9EE36 /* Info.plist */,
+				044ED9F6257FACE300B9EE36 /* main.m */,
+				044EDA01257FBC9C00B9EE36 /* temp.m */,
+				044EDA112582014200B9EE36 /* loading-2.png */,
+				044EDA092581E3E200B9EE36 /* DisplayImages.h */,
+				044EDA0A2581E3E200B9EE36 /* DisplayImages.m */,
+			);
+			path = "ios-hw3-muhenan";
+			sourceTree = "<group>";
+		};
+		60B11B60C41F2F5197B60E8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C7CB53E2A79469A6FB751BB /* Pods_ios_hw3_muhenan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2867CB6C0AC13A68D0BB831 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE1D53F8B4F01BBE3962651C /* Pods-ios-hw3-muhenan.debug.xcconfig */,
+				FCCE618E356F26DDBB39F813 /* Pods-ios-hw3-muhenan.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044ED9E0257FACDD00B9EE36 /* ios-hw3-muhenan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044ED9FA257FACE300B9EE36 /* Build configuration list for PBXNativeTarget "ios-hw3-muhenan" */;
+			buildPhases = (
+				66830949FED2C44CA9A62CB6 /* [CP] Check Pods Manifest.lock */,
+				044ED9DD257FACDD00B9EE36 /* Sources */,
+				044ED9DE257FACDD00B9EE36 /* Frameworks */,
+				044ED9DF257FACDD00B9EE36 /* Resources */,
+				28786B98820A0004AF70938D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-hw3-muhenan";
+			productName = "ios-hw3-muhenan";
+			productReference = 044ED9E1257FACDD00B9EE36 /* ios-hw3-muhenan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044ED9D9257FACDD00B9EE36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					044ED9E0257FACDD00B9EE36 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 044ED9DC257FACDD00B9EE36 /* Build configuration list for PBXProject "ios-hw3-muhenan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044ED9D8257FACDD00B9EE36;
+			productRefGroup = 044ED9E2257FACDD00B9EE36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044ED9E0257FACDD00B9EE36 /* ios-hw3-muhenan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044ED9DF257FACDD00B9EE36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044ED9F1257FACE300B9EE36 /* Assets.xcassets in Resources */,
+				044EDA122582014300B9EE36 /* loading-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28786B98820A0004AF70938D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-hw3-muhenan/Pods-ios-hw3-muhenan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-hw3-muhenan/Pods-ios-hw3-muhenan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-hw3-muhenan/Pods-ios-hw3-muhenan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66830949FED2C44CA9A62CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-hw3-muhenan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044ED9DD257FACDD00B9EE36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044ED9EC257FACDD00B9EE36 /* ViewController.m in Sources */,
+				044EDA0B2581E3E200B9EE36 /* DisplayImages.m in Sources */,
+				044ED9E6257FACDD00B9EE36 /* AppDelegate.m in Sources */,
+				044ED9F7257FACE300B9EE36 /* main.m in Sources */,
+				044EDA02257FBC9C00B9EE36 /* temp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		044ED9F8257FACE300B9EE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044ED9F9257FACE300B9EE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044ED9FB257FACE300B9EE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1D53F8B4F01BBE3962651C /* Pods-ios-hw3-muhenan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-hw3-muhenan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "muhenan.ios-hw3-muhenan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044ED9FC257FACE300B9EE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCE618E356F26DDBB39F813 /* Pods-ios-hw3-muhenan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-hw3-muhenan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "muhenan.ios-hw3-muhenan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044ED9DC257FACDD00B9EE36 /* Build configuration list for PBXProject "ios-hw3-muhenan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044ED9F8257FACE300B9EE36 /* Debug */,
+				044ED9F9257FACE300B9EE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044ED9FA257FACE300B9EE36 /* Build configuration list for PBXNativeTarget "ios-hw3-muhenan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044ED9FB257FACE300B9EE36 /* Debug */,
+				044ED9FC257FACE300B9EE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044ED9D9257FACDD00B9EE36 /* Project object */;
+}

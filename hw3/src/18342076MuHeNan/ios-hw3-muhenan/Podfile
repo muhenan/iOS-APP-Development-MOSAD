@@ -1,0 +1,6 @@
+platform :ios, '14.2'
+use_frameworks!
+
+target 'ios-hw3-muhenan' do
+    pod 'AFNetworking', '~> 4.0'
+end
